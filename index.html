@@ -35,7 +35,7 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#hobbies">Hobbies</a></li>
-                    
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
@@ -200,44 +200,54 @@ National Energy Technology Laboratory - Energy Data eXchange; NETL
 <section class="resume-section" id="skills">
     <div class="resume-section-content">
         <h2 class="mb-5">Skills</h2>
-        <div class="subheading mb-3">Programming Languages & Tools</div>
+        
+        
+        <div class="subheading mb-3">Back-End Programming Languages & Tools</div>
         <ul class="list-inline dev-icons">
-            <li class="list-inline-item" data-toggle="tooltip" title="Tooltip on top"><i class="fab fa-vuejs"></i></li>
             <li class="list-inline-item" data-toggle="tooltip" title="Python"><i class="fab fa-python"></i></li>
+            <li class="list-inline-item" data-toggle="tooltip" title="Javscript"><i class="fab fa-js-square"></i></li>
+            <li class="list-inline-item" data-toggle="tooltip" title="Node.js"><i class="fab fa-node-js"></i></li>
+            <li class="list-inline-item" data-toggle="tooltip" title="NPM"><i class="fab fa-npm"></i></li>
+            <li class="list-inline-item" data-toggle="tooltip" title="Docker"><i class="fab fa-docker"></i></li>
+            <li class="list-inline-item" data-toggle="tooltip" title="Linux"><i class="fab fa-linux"></i></li>
+            <li class="list-inline-item" data-toggle="tooltip" title="Postgress SQL"><i class="devicon-postgresql-plain"></i>
+            </li>
+            <li class="list-inline-item" data-toggle="tooltip" title="Express"><i class="devicon-express-original"></i>
+            </li>
+        </ul>
+        
+        <p>Mapbox GL JS, ESRI Suite, ArcGIS API for Javascript, Cypress, Apollo Server, Apollo Client and more...</p>
+
+        <div class="subheading mb-3">Front-End Programming & Testing</div>
+        <ul class="list-inline dev-icons">
+            <li class="list-inline-item" data-toggle="tooltip" title="Vue.js"><i class="fab fa-vuejs"></i></li>
             <li class="list-inline-item" data-toggle="tooltip" title="Git"><i class="fab fa-git"></i></li>
             <li class="list-inline-item" data-toggle="tooltip" title="HTML"><i class="fab fa-html5"></i></li>
             <li class="list-inline-item" data-toggle="tooltip" title="CSS"><i class="fab fa-css3-alt"></i></li>
             <li class="list-inline-item" data-toggle="tooltip" title="Javscript"><i class="fab fa-js-square"></i></li>
-            <li class="list-inline-item" data-toggle="tooltip" title="Node.js"><i class="fab fa-node-js"></i></li>
             <li class="list-inline-item" data-toggle="tooltip" title="SASS"><i class="fab fa-sass"></i></li>
-            <li class="list-inline-item" data-toggle="tooltip" title="NPM"><i class="fab fa-npm"></i></li>
             <li class="list-inline-item" data-toggle="tooltip" title="Docker"><i class="fab fa-docker"></i></li>
-            <li class="list-inline-item" data-toggle="tooltip" title="Linux"><i class="fab fa-linux"></i></li>
             <li class="list-inline-item" data-toggle="tooltip" title="Nuxt.js"><i class="devicon-nuxtjs-plain"></i>
             </li>
             <li class="list-inline-item" data-toggle="tooltip" title="Svelte"><i class="devicon-svelte-plain"></i>
             </li>
             <li class="list-inline-item" data-toggle="tooltip" title="Graph QL"><i class="devicon-graphql-plain"></i>
             </li>
-            <li class="list-inline-item" data-toggle="tooltip" title="Postgress SQL"><i class="devicon-postgresql-plain"></i>
-            </li>
-            <li class="list-inline-item" data-toggle="tooltip" title="D3.js"><i class="devicon-d3js-plain"></i>
-            </li>
             <li class="list-inline-item" data-toggle="tooltip" title="Jest"><i class="devicon-jest-plain"></i>
             </li>
             <li class="list-inline-item" data-toggle="tooltip" title="Express"><i class="devicon-express-original"></i>
-            </li> 
+            </li>
         </ul>
-        <p>Additional skills: Mapbox GL JS, ESRI Suite, ArcGIS API for Javascript, Cypress, Apollo Server, Apollo Client and more...</p>
+        <div class="subheading mb-3">Data Visualization + Mapping</div>
+        <ul class="list-inline dev-icons">
+        <li class="list-inline-item" data-toggle="tooltip" title="D3.js"><i class="devicon-d3js-plain"></i>
+        </li>
+    </ul>
         <div class="subheading mb-3">Workflow</div>
         <ul class="fa-ul mb-0">
             <li>
                 <span class="fa-li"><i class="fas fa-check"></i></span>
                 Test Driven Development
-            </li>
-            <li>
-                <span class="fa-li"><i class="fas fa-check"></i></span>
-                Continuous Integration/Continuous Deployment
             </li>
             <li>
                 <span class="fa-li"><i class="fas fa-check"></i></span>
@@ -302,7 +312,31 @@ National Energy Technology Laboratory - Energy Data eXchange; NETL
                 </div>
             </section>
             <hr class="m-0" />
-            
+            <!-- Contact -->
+            <section class="resume-section" id="contact">
+                <div class="resume-section-content">           
+                    <div class="contact-form">
+                        <form action="https://formspree.io/f/mjvjlebb" method="post">
+                            <h2 class="mb-5">Get in Touch</h2>
+                           
+                                    <div class="form-group mb-3">
+                                        <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
+                                    </div>
+                                    <div class="form-group mb-3">
+                                        <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" />
+                                    </div>
+                                    <div class="form-group mb-3">
+                                        <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="submit" name="btnSubmit" class="btnContact bg-secondary" value="Send Message" />
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+            </div>
+                </div>
+            </section>
         </div>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
