@@ -63,6 +63,10 @@
   --bs-body-bg: #fff;
 }
 
+.tooltip .arrow {
+  background-color: rgba(var(--bs-primary-rgb)) !important;
+}
+
 *,
 *::before,
 *::after {
@@ -11392,6 +11396,15 @@ p.lead {
 
 .dev-icons {
   font-size: 3rem;
+  transition: all 0.2s;
+}
+.dev-icons li {
+  transition: all 0.2s;
+}
+.dev-icons li:hover {
+  transform: translate(0px, -4px);
+  color: rgba(var(--bs-primary-rgb));
+  transition: all 0.2s;
 }
 
 section.resume-section {

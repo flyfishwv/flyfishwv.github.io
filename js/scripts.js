@@ -8,6 +8,11 @@
 // 
 
 window.addEventListener('DOMContentLoaded', event => {
+    // Configure Bootstrap Tooltip
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-toggle="tooltip"]'));
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+    return new bootstrap.Tooltip(tooltipTriggerEl, {placement: 'bottom'})
+    });
 
     // Activate Bootstrap scrollspy on the main nav element
     const sideNav = document.body.querySelector('#sideNav');
