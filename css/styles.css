@@ -63,9 +63,14 @@
   --bs-body-bg: #fff;
 }
 
-.tooltip .arrow {
-  background-color: rgba(var(--bs-primary-rgb)) !important;
+.tooltip .tooltip-inner {
+  background-color: var(--bs-primary);
+  opacity: 1;
 }
+.tooltip .tooltip-arrow::before {
+  border-bottom-color: var(--bs-primary) !important;
+}
+
 
 *,
 *::before,
