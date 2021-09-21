@@ -11853,7 +11853,7 @@ section.resume-section .resume-section-content {
 /*** Custom Icons ***/
 @font-face {
   font-family: "technologies";
-  src: url(font/technologies.eot?66328218');
+  src: url("font/technologies.eot?66328218");
   src: url("font/technologies.eot?66328218#iefix") format("embedded-opentype"),
     url("font/technologies.woff2?66328218") format("woff2"),
     url("font/technologies.woff?66328218") format("woff"),
