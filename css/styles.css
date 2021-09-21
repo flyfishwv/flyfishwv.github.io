@@ -11783,13 +11783,9 @@ p.lead {
   font-size: 3rem;
   transition: all 0.2s;
 }
-.dev-icons a {
-  color: inherit;
-  text-decoration: none;
-  transition: all 0.2s;
-}
+
 .dev-icons a:hover {
-  color: rgba(var(--bs-primary-rgb)) !important;
+  color: rgba(var(--bs-primary-rgb));
   transition: all 0.2s;
 }
 .dev-icons li {
