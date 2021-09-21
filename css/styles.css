@@ -11786,6 +11786,7 @@ p.lead {
 .dev-icons a {
   color: inherit;
   text-decoration: none;
+  transition: all 0.2s;
 }
 .dev-icons a:hover {
   color: rgba(var(--bs-primary-rgb)) !important;
@@ -11796,7 +11797,7 @@ p.lead {
 }
 .dev-icons li:hover {
   transform: translate(0px, -4px);
-  /* color: rgba(var(--bs-primary-rgb)); */
+  color: rgba(var(--bs-primary-rgb));
   transition: all 0.2s;
 }
 
