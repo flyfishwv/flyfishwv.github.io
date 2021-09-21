@@ -11788,7 +11788,7 @@ p.lead {
   text-decoration: none;
 }
 .dev-icons a:hover {
-  color: rgba(var(--bs-primary-rgb));
+  color: rgba(var(--bs-primary-rgb)) !important;
   transition: all 0.2s;
 }
 .dev-icons li {
