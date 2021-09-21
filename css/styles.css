@@ -11784,7 +11784,7 @@ p.lead {
   transition: all 0.2s;
 }
 .dev-icons a {
-  color: inherit;
+  color: inherit !important;
   text-decoration: none !important;
 }
 .dev-icons a:hover {
