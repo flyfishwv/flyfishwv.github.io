@@ -643,7 +643,7 @@ progress {
 }
 
 .img-fluid {
-  max-width: 100%;
+  max-width: 50%;
   height: auto;
 }
 
@@ -11913,4 +11913,6 @@ section.resume-section .resume-section-content {
 .icon-apollo:before {
   content: "\e803";
 } /* '' */
-.icon-websocket-icon:before { content: '\e806'; } /* '' */
+.icon-websocket-icon:before {
+  content: "\e806";
+} /* '' */
