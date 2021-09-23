@@ -11913,3 +11913,4 @@ section.resume-section .resume-section-content {
 .icon-apollo:before {
   content: "\e803";
 } /* '' */
+.icon-websocket-icon:before { content: '\e806'; } /* '' */
